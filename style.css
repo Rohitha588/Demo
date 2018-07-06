@@ -34,7 +34,7 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width:481px) and (max-width:768px){
 	.parent{
 		display:flex;
 		flex-direction:column;
@@ -47,6 +47,7 @@
 		margin:2%;
 		box-shadow: 3px 3px 3px pink;
 		border-radius:20px;
+		background-color: #e453;
 
 	}
 	.childOne img{
@@ -55,6 +56,7 @@
 		display:block;
 		margin-left:auto;
 		margin-right:auto;
+		background-color: #a234;
 	}
 
 .childTwo{
@@ -64,6 +66,7 @@
 	margin:2%;
 	box-shadow: 3px 3px 3px pink;
 	border-radius:20px;
+	background-color: #e456;
 
 }
 }
