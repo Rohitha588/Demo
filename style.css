@@ -10,7 +10,22 @@
 	margin:2%;
 	box-shadow: 3px 3px 3px pink;
 	border-radius:20px;
+}
 
+.childTwo{
+	width:70%;
+	padding:2%;
+	border:1px solid #ddd;
+	margin:2%;
+	box-shadow: 3px 3px 3px pink;
+	border-radius:20px;
+}
+.childTwo img1{
+	width:60%;
+	height:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 .childOne img{
 	width:40%;
