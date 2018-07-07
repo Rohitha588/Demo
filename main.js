@@ -14,6 +14,7 @@ getfile("data.json",function(text){
   console.log(data);
   career(data.career);
   education(data.education);
+  skills(data.skills);
 })
 var child2=document.querySelector(".childTwo");
 function career(careerInfo){
@@ -45,4 +46,14 @@ function education(edu){
   }
   eduTable.innerHTML=tr1+tr2;
   child2.appendChild(eduTable);
+}
+function skills(skill){
+  var u1=document.createElement("u1");
+  child2.appendChild(u1);
+  for(var i=0;i<skill.length;i++){
+    var li=document.createElement("li");
+    li.textContent=skill[i].title+":"+skill[i].content;
+    u1.appendChild(li);
+  }
+
 }
