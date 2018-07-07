@@ -12,4 +12,12 @@ function getfile(file,callback){
 getfile("data.json",function(text){
   let data = JSON.parse(text);
   console.log(data);
+  career(data.career);
 })
+var child2=document.querySelector(".childTwo");
+function career(careerInfo){
+  var ch=document.createElement("p");
+  ch.textContent=careerInfo.info;
+  child2.appendChild(ch);
+  
+}
