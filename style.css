@@ -34,7 +34,7 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-@media only screen and (min-width:481px) and (max-width:768px){
+@media only screen and (min-width:1025px) and (max-width:1550px){
 	.parent{
 		display:flex;
 		flex-direction:column;
@@ -47,7 +47,7 @@
 		margin:2%;
 		box-shadow: 3px 3px 3px pink;
 		border-radius:20px;
-		background-color: #e453;
+		background-color: #fe3466;
 
 	}
 	.childOne img{
@@ -56,7 +56,7 @@
 		display:block;
 		margin-left:auto;
 		margin-right:auto;
-		background-color: #a234;
+		background-color: #b43452;
 	}
 
 .childTwo{
@@ -66,7 +66,14 @@
 	margin:2%;
 	box-shadow: 3px 3px 3px pink;
 	border-radius:20px;
-	background-color: #e456;
-
+	background-color: #561878;
+}
+.childTwo img1{
+	width 100%;
+	height:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #45678;
 }
 }
