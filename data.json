@@ -6,5 +6,23 @@
   },
   "career":{
     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
-  }
+  },
+  "education":[
+    {
+      "degree":"B-Tech(computer science)",
+      "institute":"PVP Siddardha",
+      "data":["2015-19","92%"]
+    },
+    {
+      "degree":"intermediate(M.P.C)",
+      "institute":"sree chaitanya junior college",
+      "date":["2014-16","94%"]
+    },
+    {
+      "degree":"S.S.C",
+      "institute":"swarnabharathi",
+      "date":["2014","93%"]
+    }
+
+  ]
 }
